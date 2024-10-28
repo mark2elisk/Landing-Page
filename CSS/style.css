@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.Gorgol{
+    
+    background-color: #007B7F;
+}
+
+.Actividadesseguras{
+    background-color: #007B7F;
+    text-align: center;
+    color: white;
+}
+.Actividadesseguras h2{
+    color: white;
+}
+.Actividadesseguras img{
+    width: 600px;
+}
+.imagen-gorgol{
+
+    background-image: url(./barrancos-1500.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.entorno{
+    margin: 10px;
+    text-align: center;
+}
+.entorno img{
+    left: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.actividades {
+    background: white;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.actividades img {
+    width: 300px;
+    border-radius: 8px 8px 0 0;
+}
+
+.barranco h2 {
+    color: #333;
+}
+
+.barranco p {
+    color: #666;
+}
+
+.Reserva{
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    float: right;
+    position: absolute;
+    right: 120px;
+    top: 120px;
+}
+
+.header {
+    background-image: url(./CSS/barrancos-1500.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #007B7F;
+}
+
+.boletin{
+    background-color: #007B7F;
+    color: white;
+
+    left: auto;
+    right: auto;
+    
+}
+.boletin form{
+    width: 50%;
+}
+.boletin h2{
+    color: white;
+    text-align: center;
+}
+
+section {
+   
+    clear: both;
+    border-radius: 8px;
+    
+}
+
+.subscribirse{
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #d14d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 60px;
+}
+
+button:hover {
+    background-color: #d36262;
+}
+
+.actividades-lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.actividad {
+    border: 1px solid #007B7F;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+footer {
+    background-color: #007B7F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer h3 {
+    margin: 10px 0;
+}
